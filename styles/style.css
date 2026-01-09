@@ -1,3 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-
-
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+.btn {
+    background-color: #30B868;
+    border: none;
+    padding: 12PX 16PX;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: semi bold;
+    color: white;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: 346px;
+    margin-right: 120px;
+}
+.logo img{
+    width: 139px;
+    height: 60px;
+}
+header {
+    background-color: #FFFFFF;
+    padding-top: 16px;
+}
+nav{
+    width: 1360px;
+    height: 60px;
+    max-width: 1600px;
+    /*border: 1px solid red;*/
+    margin: 16px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .menu {
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+    align-items: center;
+}
+nav .menu a{
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+}
