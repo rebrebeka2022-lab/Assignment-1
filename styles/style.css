@@ -11,33 +11,41 @@
 .btn {
     background-color: #30B868;
     border: none;
-    padding: 12PX 16PX;
+    width: 164px;
+    height: 44px;
+    padding: 12px 16px 12px 16px;
+    gap: 10px;
     border-radius: 4px;
     font-size: 16px;
-    font-weight: semi bold;
+    font-weight: 600;
+    line-height: 19px;
+    text-align: left;
     color: white;
-    margin-top: 24px;
-    margin-bottom: 24px;
-    margin-left: 346px;
-    margin-right: 120px;
+    margin: 24px 120px 24px 346px;
+    cursor: pointer;
 }
 .logo img{
     width: 139px;
     height: 60px;
 }
 header {
-    background-color: #FFFFFF;
+    background-color:#FFFFFF;
     padding-top: 16px;
+        
+    
 }
 nav{
-    width: 1360px;
-    height: 60px;
+    width: 1600px;
+    height: 92px;
     max-width: 1600px;
     /*border: 1px solid red;*/
-    margin: 16px 120px;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding: 16px 120px 16px 120px;
+    background-color: antiquewhite; 
+    
 }
 nav .menu {
     display: flex;
@@ -50,3 +58,98 @@ nav .menu a{
     color: #000000;
     text-decoration: none;
 }
+#banner {
+   /* border: 1px solid red;*/
+    width: 1600px;
+    height: 674px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+    padding: 70px 120px 134px 120px;
+    
+}
+#banner .banner-content{
+    width: 1360px;
+    height: 379px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32px;
+
+}
+#banner .banner-content h1{
+    width: 770px;
+    height: 168px;
+    font-size: 72PX;
+    line-height: 84PX;
+    font-weight: 700;
+    font-style: bold;
+    text-align: center;
+    margin-bottom: 16px;
+}
+#banner .white{
+    color: #FFFFFF;
+
+}
+#banner .green{
+    color: #30B868;
+}
+#banner .btn1{
+    width: 229px;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 12px 8px 12px;
+    border-radius: 1000px;
+    font-size: 16px;
+    color: #30B868;
+    line-height: auto;
+    border-radius: center;
+    cursor: pointer;
+    
+}
+#banner .banner-content p{
+    font-size: 18px;
+    width: 1360px;
+    height: 60px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 24px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+#banner .btn2{
+    width: 251px;
+    height: 52px;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #30B868;
+    padding: 12px 16px 12px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.Notes-dont-fail-parent{
+
+}
+.notes-section-title{
+    font-weight: 700;
+    font-size: 48px;
+}
+.note-card{
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+    background: rgba(255, 255, 255, 1);
+}
+
