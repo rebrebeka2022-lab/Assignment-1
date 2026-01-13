@@ -44,7 +44,8 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 16px 120px 16px 120px;
-    background-color: antiquewhite; 
+    background-color: antiquewhite;
+    max-width: 1600px; 
     
 }
 nav .menu {
@@ -69,6 +70,8 @@ nav .menu a{
     text-align: center;
     gap: 40px;
     padding: 70px 120px 134px 120px;
+    background-image: url(../assets/hero-bg.png);
+    background-size: cover;
     
 }
 #banner .banner-content{
@@ -115,6 +118,10 @@ nav .menu a{
     cursor: pointer;
     
 }
+#banner .btn img{
+    width: 16px;
+    height: 16px;
+}
 #banner .banner-content p{
     font-size: 18px;
     width: 1360px;
@@ -125,40 +132,129 @@ nav .menu a{
     margin-bottom: 32px;
     text-align: center;
 }
+#banner .btn-2{
+    
+     width: 251px;
+     height: 52px;
+     display: inline-flex;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+     padding: 12px 16px 12px 16px;
+     border-radius: 4px;
+     background-color: #30B868;
+     border: none;
+     cursor: pointer;
+     color: rgba(255, 255, 255, 1);
+     font-size: 16px;
+     font-weight: 600;
 
-#banner .btn2{
-    width: 251px;
-    height: 52px;
-    align-items: center;
-    flex-direction: row;
-    display: flex;
-    font-size: 16px;
-    color: #FFFFFF;
-    background-color: #30B868;
-    padding: 12px 16px 12px 16px;
-    cursor: pointer;
-    border-radius: 4px;
 }
-.notes-paragraph p{
-       color: var(--#627382, rgba(98, 115, 130, 1));
+#banner .btn-2 img{
+    width: 20px;
+    height: 20px;
+
+}
+#banner .btn-3{
+    width: 198px;
+    height: 52px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 12px 16px 12px 16px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+}
+#banner .btn-3 img{
+    width: 20px;
+    height: 20px;
+}
+#banner .the-primary-button{
+
+     width: 465px;
+     height: 52px;
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+     align-items: center;
+     gap: 16px;
+}
+.notes-dont-fail-structure-does-parent-container{
+     width: 1600px;
+     height: 448px;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     align-items: center;
+     gap: 44px;
+     padding: 120px;
+     margin-bottom: 120px;
+     
+
+
+}
+
+.notes-heading{
+     width: 1360px;
+     height: 152px;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     align-items: flex-start;
+     gap: 16px;
+     
+
+
+
+
+}
+
+
+
+
+.notes-paragraph{
+       
+       width: 1360px;
+       height: 20px;
        font-size: 16px;
        font-weight: 400;
        line-height: 20px;
        display: flex;
        flex-direction: column;
        align-items: center;
+       text-align: center;
+       display: flex;
+       justify-content: center;
+       margin-top: 16px;
+       margin-bottom: 44px;
+       color: #627382;
 }
 
 
 .notes-section-title{
-     font-size: 48px;
-     font-weight: 700;
-     line-height: 58px;
-     text-align: center
+    width: 1360px;
+    height: 116px;
+    color: #001931;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: center;
 }
 .note-card-parent{
-    display: flex;
-    gap: 24px;
+     width: 1360px;
+     height: 300px;
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+     align-items: flex-start;
+     gap: 24px;
+     margin-bottom: 120px;
+
+
 }
 .note-card{
     padding: 24px;
@@ -182,53 +278,226 @@ nav .menu a{
         margin: 0 auto 16px;
 }
 .note-card p{
-    color: var(--#627382, rgba(98, 115, 130, 1));
+    color: #627382;
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
     
 }
-.your-second-brain-parent{
-
-}
-.your-second-brain-parent{
-   width: 1360px;
-   height: 600px;
-   display: flex;
-   flex-direction: row;
-   justify-content: flex-start;
-   align-items: center;
-   gap: 60;
+.your-second-brain-section{
+    margin-top: 120px;
+    width: 1360px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 60px;
 
 
 }
-.your-second-brain h3{
-    color: var(--#30B868, rgba(70, 145, 101, 1));
+.your-second-brain{
+
+    width: 1360px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 60px;
+    padding: 120px;
+
+
+
+}
+.your-second-brain img{
+    width: 600px;
+    height: 600px;
+    border-radius: 12px;
+    margin-top: 120px;
+    
+}
+.your-second-brain-description{
+    
+    width: 700px;
+    height: 396px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+
+
+}
+.your-second-brain-description h3{
+    width: 700px;
+    height: 20px;
+    color: #30B868;
     font-size: 16px;
     font-weight: 500;
     line-height: 20px;
-    letter-spacing: 0%;
     text-align: left;
-
+    margin-top: 102px;
+    margin-left: 16px;
 
 }
-.your-second-brain h1{
+.your-second-brain-description h1{
     width: 700px;
     height: 116px;
-    color: var(--#001931, var(--Color, rgba(0, 25, 49, 1)));
+    color: #001931;
     font-size: 48px;
     font-weight: 700;
     line-height: 58px;
     text-align: left;
-    
+
 }
-.your-second-brain p{
+.your-second-brain-description p{
     width: 700px;
     height: 60px;
-    color: var(--#627382, rgba(98, 115, 130, 1));
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    
+}
+
+.list-section{
+    
+    
+    
+    
+
+
+    
+    
+    
+}
+.list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+}
+
+
+.list li img{
+    
+    
+}
+.ready-to-think-more-clearly{
+    width: auto 1360px;
+    height: auto 384px;
+    padding: 80px 40px 80px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    border-radius: 12px;
+}
+.ready-to-think{
+    
+    width: 1360px;
+    height: 384px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+    padding: 80px 40px 80px 40px;
+    color: bisque;
+
+
+}
+.ready-to-think h1{
+    width: auto 1280px;
+    height: auto 48px;
+    color: #000000;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+.ready-to-think p{
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;  
+     
+}
+.ready-to-think-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto 1280px;
+    height: auto 88px;
+    margin-top: 40px;
+}
+
+.btn-button{
+    width: 194px;
+    height: 52px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 16px 12px 16px;
+    border-radius: 4px;
+    background-color: #30B868;
+    margin-top: 40px;
+
+
+}
+.pera{
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
     letter-spacing: 0%;
-    text-align: left;
+    text-align: center;
+    color: #627382;
+}
+.btn-button img{
+    width: 20px;
+    height: 20px;
+}
+.the-end-part{
+    
+     width: 1600px;
+     height: 348px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     gap: 80px;
+     padding: 120px 120px 30px 120px;
+     background-color: #001931;
+
+
+}
+.footer-section img{
+    
+       width: 350px;
+       height: 60px;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       align-items: center;
+       gap: 16px;
+
+
+}
+.social-link img{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
